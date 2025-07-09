@@ -1,3 +1,135 @@
+/* Login Page Styles */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.welcome {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #2d3748;
+  text-align: center;
+}
+
+.login-form-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 2.5rem 2rem 2rem 2rem;
+  min-width: 340px;
+  max-width: 90vw;
+  margin-bottom: 1.5rem;
+}
+
+.login-form .form-group {
+  margin-bottom: 1.2rem;
+}
+
+.login-field {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  background: #f9fafb;
+  transition: border 0.2s;
+}
+.login-field:focus {
+  border: 1.5px solid #3182ce;
+  outline: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background: #3182ce;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+  margin-top: 0.5rem;
+}
+.login-btn:hover {
+  background: #2563eb;
+}
+
+.forgot-password-link {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+.forgot-password-link a {
+  color: #3182ce;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.flash-alert {
+  color: #fff;
+  background: #e53e3e;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.flash-notice {
+  color: #fff;
+  background: #38a169;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.top-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #f8fafc;
+  padding: 1rem 2rem 1rem 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.nav-right {
+  display: flex;
+  gap: 1rem;
+}
+.nav-btn {
+  padding: 0.6rem 1.3rem;
+  border-radius: 6px;
+  background: #3182ce;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  transition: background 0.2s;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(49,130,206,0.08);
+}
+.nav-btn:hover {
+  background: #2563eb;
+}
+.nav-login {
+  background: #38a169;
+}
+.nav-login:hover {
+  background: #2f855a;
+}
+.nav-logout {
+  background: #e53e3e;
+}
+.nav-logout:hover {
+  background: #c53030;
+}
 /*
  * This is a manifest file that'll be compiled into application.css.
  *
